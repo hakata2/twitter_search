@@ -19,4 +19,5 @@ SUB_KEYWORDS = [
 BLACKLIST = [
 	'買取',
 	'交換',
+	'大会',
 ]

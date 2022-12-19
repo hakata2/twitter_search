@@ -105,7 +105,8 @@ def get_tweet(http, params, current_id):
     
     # 検索結果を解析
     notify_cnt = check_data(data, current_id, keystr)
-    print(keystr + ': ' + str(notify_cnt) + '件通知しました。')
+    if(notify_cnt > 0):
+        print(keystr + ': ' + str(notify_cnt) + '件通知しました。')
 
     return maxid
 
